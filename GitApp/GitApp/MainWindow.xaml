@@ -1,0 +1,12 @@
+﻿<Window x:Class="GitApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GitApp"
+        mc:Ignorable="d"
+        Title="Форма Дениса" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" FontWeight="Bold" FontStyle="Italic">Форма Дениса</TextBlock> 
+    </Grid>
+</Window>
