@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="Форма Дениса" Height="450" Width="800">
     <Grid>
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" FontWeight="Bold" FontStyle="Italic">Форма Дениса</TextBlock> 
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock FontSize="30" FontWeight="Bold" FontStyle="Italic">Форма Дениса</TextBlock>
+            <Button Width="100" Height="50" Margin="10" Name="FormBtn" Click="FormBtn_Click">Нажать</Button>    
+        </StackPanel>
+        
     </Grid>
 </Window>

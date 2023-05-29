@@ -24,5 +24,10 @@ namespace GitApp
         {
             InitializeComponent();
         }
+
+        private void FormBtn_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Форма Дениса");
+        }
     }
 }
